@@ -2,7 +2,11 @@
   {/*<HelloWorld />,*/}
   // document.getElementById('content')
 // )
+// ReactDOM.render(
+//   <Content />,
+//   document.getElementById('content')
+// )
 ReactDOM.render(
-  <Content />,
+  <Clock />,
   document.getElementById('content')
 )

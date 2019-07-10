@@ -2,4 +2,8 @@
 {} /*<HelloWorld />,*/
 // document.getElementById('content')
 // )
-ReactDOM.render(React.createElement(Content, null), document.getElementById('content'));
+// ReactDOM.render(
+//   <Content />,
+//   document.getElementById('content')
+// )
+ReactDOM.render(React.createElement(Clock, null), document.getElementById('content'));
